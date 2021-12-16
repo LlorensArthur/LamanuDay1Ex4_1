@@ -1,9 +1,9 @@
 ﻿string[] days = { "Lundi", "Mardi", "Mercredi", "Jedi", "Vendredi", "Samedi"};
 // Affichage d'éléments du tableau
-Console.WriteLine($"Voici le contenu de l'indice 1 du tableau {days[1]}");
-Console.WriteLine($"Voici le contenu de l'indice 4 du tableau {days[4]}");
-Console.WriteLine($"Voici le premier élément du tableau {days[0]}");
-Console.WriteLine($"Voici le quatrième élément du tableau {days[3]}");
+Console.WriteLine($"Voici le contenu de l'indice 1 du tableau : {days[1]}");
+Console.WriteLine($"Voici le contenu de l'indice 4 du tableau : {days[4]}");
+Console.WriteLine($"Voici le premier élément du tableau : {days[0]}");
+Console.WriteLine($"Voici le quatrième élément du tableau : {days[3]}");
 // Modification du tableau
 days[3] = "Jeudi";
 Array.Resize(ref days, days.Length + 1);
