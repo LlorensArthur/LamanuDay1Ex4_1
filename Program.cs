@@ -1,5 +1,4 @@
-﻿using System;
-string[] days = { "Lundi", "Mardi", "Mercredi", "Jedi", "Vendredi", "Samedi"};
+﻿string[] days = { "Lundi", "Mardi", "Mercredi", "Jedi", "Vendredi", "Samedi"};
 Console.WriteLine(days[1]);
 Console.WriteLine(days[4]);
 Console.WriteLine(days[0]);
